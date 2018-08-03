@@ -9,17 +9,17 @@ A matrix is just a vector of vectors:
 ```
 $matrix = Array(Array(1,2,3),Array(4,5,6));
 ```		  
-is the matrix |1 2 3| 
+is the matrix |1 2 3| <br />
               |4 5 6|
 
-so each of the inner vector represents a row and each of their elements a column.
-This library (as for now) is limited to the matrices management, so you have to create them yourself.
+so each of the inner vector represents a row and each of their elements a column.<br />
+This library (as for now) is limited to the matrices management, so you have to create them yourself.<br />
 A 1-column, n-rows matrix is just a vector:
 ```
 $matrix1n = Array(1,2,3);
 ```	
-represents the column vector |1|
-                             |2|
+represents the column vector |1|<br />
+                             |2|<br />
 							 |3|
 
 In the same way a n-columns, 1-row vector is a vector that contains a single vector of n elements:
@@ -29,12 +29,12 @@ $matrixn1 = Array(Array(1,2,3));
 represents the matrix |1 2 3|.
 
 ## Functions
-The functions in the library are:
-	* determinant
-	* transpose
-	* matrix_product
-	* cofactor
-	* inverse
+The functions in the library are:<br />
+	* determinant<br />
+	* transpose<br />
+	* matrix_product<br />
+	* cofactor<br />
+	* inverse<br />
 	
 ## Version
 V1.0 
